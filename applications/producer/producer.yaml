@@ -20,7 +20,7 @@ spec:
         app: data-producer
     spec:
       containers:
-        - image: quay.io/puzzle/quarkus-techlab-data-consumer:rest
+        - image: quay.io/puzzle/quarkus-techlab-data-consumer:latest
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 5
